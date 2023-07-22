@@ -12,6 +12,7 @@ body {
 
 .container {
   width: 600px;
+  max-width: 100%;
   position: relative;
   margin: 0 auto;
 }
@@ -48,6 +49,7 @@ body {
 
 .config-icon {
   background-color: #fff;
+  border-radius: 50vh;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -171,7 +173,6 @@ body {
 
   &__device {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
